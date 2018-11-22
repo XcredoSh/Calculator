@@ -1,0 +1,89 @@
+body{
+	margin: 0px auto;
+	padding: 0px;
+	box-sizing: border-box;
+	background-color: #252839;
+}
+#input{
+	text-align: right;
+}
+input[type=number]{
+	color: #fff;
+	border: 0.1px solid #fff;
+	background-color: #252839;
+}
+input[type=button]{
+	background-color: #252839;
+	color: #fff;
+	border: 0.1px solid #fff;
+	outline: none;
+}
+input[type=button]:hover{
+	color: #677077;
+}
+div.container{
+	width: 900px;
+    padding: 10px;
+	margin: auto;
+	margin-top: 50px;
+
+}
+
+div.footer{
+	margin: 25px;
+}
+div.form-group{
+	text-align: center;
+}
+input.form-control{
+	font-size: 30px;
+	width: 252px;
+	margin-left: -5px;
+}
+div.content{
+	margin: 25px;
+	text-align: center;
+	padding-left: 143px;
+	padding-right: 143px;
+}
+.btn{
+	text-align: center;
+	width: 60px;
+	font-size: 25px;
+	color: #fff;
+	background-color: #252839;
+}
+#btn_clear{
+	color: ;
+	background-color: #252839;
+}
+.btns{
+}
+#input_ildiz{
+	color: #fff;
+	background-color: #252839;
+}
+#btn_qosh{
+	/*color: #fff;
+	background-color: #252839;*/
+}
+#btn_kopaytma{
+/*	color: #fff;
+	background-color: #252839;*/
+}
+#btn_ayir{
+	/*color: #fff;
+	background-color: #252839;*/
+}
+#bol{
+	/*color: #fff;
+	background-color: #252839;*/
+}
+#orqaga{
+	/*color: #fff;
+	background-color: #252839;*/
+}
+#natijaa{
+/*	color: #fff;
+	background-color: red;*/
+}

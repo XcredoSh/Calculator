@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My calculator</title>
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+</head>
+<body>
+	<div class="container" id="container">
+		<div class="box">
+		  <div class="footer">
+		    <div class="form-group">
+		    	<form name="calc" id="calc">
+			       <input type="number" name="input_01" class="inp form-control" id="input" value="">
+			    </form>
+			</div>
+		  </div>
+		<div class="content">
+			<form name="calc">
+				<input class="btn" id="btn_clear" type="button" value="C" onclick="Clear()">
+			    <input class="btn btns" id="bol" type="button" value="/" onclick="bolinma()">
+			    <input class="btn btns" id="btn_kopaytma" type="button" value="*" onclick="kopaytir()">
+			    <input class="btn" id="orqaga" type="button" value="X" onclick="Orqaga()">
+			    <br><br>
+
+			    <input class="btn" id="btn7" type="button" value="7" onclick="cent7()">
+			    <input class="btn" id="btn8" type="button" value="8" onclick="cent8()">
+			    <input class="btn" id="btn9" type="button" value="9" onclick="cent9()">
+			    <input class="btn btns" id="btn_ayir" type="button" value="-" onclick="ayirma()">
+			    <br><br>
+
+                <input class="btn" id="btn4" type="button" value="4" onclick="cent4()">
+			    <input class="btn" id="btn5" type="button" value="5" onclick="cent5()">
+			    <input class="btn" id="btn6" type="button" value="6" onclick="cent6()">
+			    <input class="btn btns" id="btn_qosh" type="button" value="+" onclick="qoshish()">
+			    <br><br>
+
+                <input class="btn" id="btn1" type="button" value="1" onclick="cent1()">
+			    <input class="btn" id="btn2" type="button" value="2" onclick="cent2()">
+			    <input class="btn" id="btn3" type="button" value="3" onclick="cent3()">
+			    <input class="btn btns" id='input_ildiz' type="button" value="..." onclick="ildiz()">
+			    <br><br>
+                
+                <input class="btn" id="btn0" type="button" value="0" onclick="cent0()">
+			    <input class="btn" id="btn." type="button" value="0." onclick="nuqta()">
+			    <input class="btn" id="minus" type="button" value="+/-" onclick="minus()">
+			    <input class="btn" id="natijaa" type="button" value="=" onclick="natija()">
+			    <br><br>
+			</form>
+		</div>
+		</div>
+		</div>
+		
+	<!-- </div><br><br><br><br><br>	 -->
+	<!-- <button class="btn" id="btn" onclick="demo()">up</button><br><br><hr>
+	<p class="demo" id="demo"></p><br><br>
+	<button class="btn" id="" onclick="myArray()">ar</button><br><br><hr>
+	<button class="btn" id="" onclick="map()">map</button><br><br><hr> -->
+<script src="src/javascript.js" type="text/javascript"></script>
+
+
+</body>
+</html>
